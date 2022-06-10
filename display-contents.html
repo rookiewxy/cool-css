@@ -1,0 +1,46 @@
+<!--
+ * @Description: display: contents 实现幽灵节点 参考文章https://mp.weixin.qq.com/s/DhkQNO8Hv1zZP9Fu7uSw-g
+ * @Autor: wxy
+ * @Date: 2022-06-10 10:48:29
+ * @LastEditors: wxy
+ * @LastEditTime: 2022-06-10 11:02:12
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      width: 200px;
+      height: 200px;
+      background: #bbb;
+    }
+
+    .wrap {
+      border: 2px solid red;
+      padding: 20px;
+      box-sizing: border-box;
+      display: contents;
+    }
+
+    .inner {
+      border: 2px solid green;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrap">
+      <div class="inner"></div>
+    </div>
+  </div>
+</body>
+
+</html>
